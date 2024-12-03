@@ -31,6 +31,7 @@ const NewContact = ({ setContacts }) => {
       <input name="firstName" placeholder="First Name" onChange={handleChange} required />
       <input name="lastName" placeholder="Last Name" onChange={handleChange} required />
       <input name="email" placeholder="Email" onChange={handleChange} required />
+      <br></br>
       <button type="submit">Add Contact</button>
     </form>
   );

@@ -69,6 +69,7 @@ const EditContact = () => {
             onChange={handleChange}
           />
         </div>
+        
         <button type="submit">Save Changes</button>
       </form>
     </div>
