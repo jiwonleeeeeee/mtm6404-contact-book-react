@@ -3,39 +3,124 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #f4f4f4;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  width: 70%; 
+  max-width: 400px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
-.card {
-  padding: 2em;
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+div.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+}
+
+li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+li a:hover {
+  color
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px; 
+}
+
+.search-container input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  outline: none;
+  width: 60%; 
+  max-width: 400px;
+  transition: border-color 0.3s ease;
+}
+
+.search-container input:focus {
+  border-color: #007bff;
+}
+
+.add-contact-link {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.add-contact-link:hover {
+  background-color: #0056b3;
 }
